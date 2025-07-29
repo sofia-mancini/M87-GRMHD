@@ -1,0 +1,1427 @@
+No conda package cache directories found outside your home directory. To
+prevent conda from filling up your home directory, you can create a new
+directory at `/work/pi_<your_pi_name>/$USER/.conda/pkgs` and reload the module. 
+No conda environment directories found outside your home directory. To prevent
+conda from filling up your home directory, you can create a new directory at
+`/work/pi_<your_pi_name>/$USER/.conda/envs` and reload the module. 
+Loading conda version miniforge3-24.7.1
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03000.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.4321 [code]
+Ladv: 7.89244 [code]
+Mdot: 5.83685e+23 [g/s] 
+Mdot: 0.00925444 [MSUN/YR] 
+Mdot: 6.72896e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=109 jmax=97 Imax=0.00080434 Iavg=0.000205332
+freq: 8.6e+10 Ftot: 12.3551 Jy (12.9273 Jy unpol xfer) scale=2.35044
+nuLnu = 3.63101e+41 erg/s
+I,Q,U,V [Jy]: 12.3551 0.168831 -0.257205 0.123672
+LP,CP [%]: 2.4902 1.00099
+Total wallclock time: 15.5321 s (2.37307 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03001.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.7821 [code]
+Ladv: 8.09918 [code]
+Mdot: 5.87122e+23 [g/s] 
+Mdot: 0.00930894 [MSUN/YR] 
+Mdot: 6.76859e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=106 jmax=97 Imax=0.0007931 Iavg=0.000203743
+freq: 8.6e+10 Ftot: 12.2594 Jy (12.8237 Jy unpol xfer) scale=2.35044
+nuLnu = 3.60291e+41 erg/s
+I,Q,U,V [Jy]: 12.2594 0.194559 -0.310338 0.117161
+LP,CP [%]: 2.98776 0.955678
+Total wallclock time: 14.1791 s (1.0116 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03002.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.7688 [code]
+Ladv: 8.12976 [code]
+Mdot: 5.86992e+23 [g/s] 
+Mdot: 0.00930688 [MSUN/YR] 
+Mdot: 6.76709e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=110 jmax=95 Imax=0.000762562 Iavg=0.000201886
+freq: 8.6e+10 Ftot: 12.1477 Jy (12.7064 Jy unpol xfer) scale=2.35044
+nuLnu = 3.57008e+41 erg/s
+I,Q,U,V [Jy]: 12.1477 0.208621 -0.359126 0.117333
+LP,CP [%]: 3.41894 0.965883
+Total wallclock time: 14.3544 s (1.06125 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03003.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.6785 [code]
+Ladv: 8.18036 [code]
+Mdot: 5.86105e+23 [g/s] 
+Mdot: 0.00929282 [MSUN/YR] 
+Mdot: 6.75686e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=102 jmax=99 Imax=0.000747286 Iavg=0.000199961
+freq: 8.6e+10 Ftot: 12.0319 Jy (12.5868 Jy unpol xfer) scale=2.35044
+nuLnu = 3.53604e+41 erg/s
+I,Q,U,V [Jy]: 12.0319 0.207118 -0.396426 0.119026
+LP,CP [%]: 3.71738 0.989249
+Total wallclock time: 13.7092 s (0.488378 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03004.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.6509 [code]
+Ladv: 8.2278 [code]
+Mdot: 5.85834e+23 [g/s] 
+Mdot: 0.00928852 [MSUN/YR] 
+Mdot: 6.75374e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=108 jmax=100 Imax=0.000773722 Iavg=0.000197923
+freq: 8.6e+10 Ftot: 11.9093 Jy (12.46 Jy unpol xfer) scale=2.35044
+nuLnu = 3.5e+41 erg/s
+I,Q,U,V [Jy]: 11.9093 0.198767 -0.412611 0.124066
+LP,CP [%]: 3.84567 1.04176
+Total wallclock time: 14.9853 s (1.71976 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03005.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.4488 [code]
+Ladv: 8.26723 [code]
+Mdot: 5.83849e+23 [g/s] 
+Mdot: 0.00925704 [MSUN/YR] 
+Mdot: 6.73085e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=115 jmax=94 Imax=0.000783497 Iavg=0.000196384
+freq: 8.6e+10 Ftot: 11.8167 Jy (12.3622 Jy unpol xfer) scale=2.35044
+nuLnu = 3.47279e+41 erg/s
+I,Q,U,V [Jy]: 11.8167 0.192055 -0.41647 0.129074
+LP,CP [%]: 3.88112 1.0923
+Total wallclock time: 14.9684 s (1.3685 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03006.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -59.1615 [code]
+Ladv: 8.33734 [code]
+Mdot: 5.81028e+23 [g/s] 
+Mdot: 0.00921232 [MSUN/YR] 
+Mdot: 6.69833e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=117 jmax=90 Imax=0.000807531 Iavg=0.000195232
+freq: 8.6e+10 Ftot: 11.7474 Jy (12.292 Jy unpol xfer) scale=2.35044
+nuLnu = 3.45242e+41 erg/s
+I,Q,U,V [Jy]: 11.7474 0.201642 -0.41698 0.134006
+LP,CP [%]: 3.9428 1.14073
+Total wallclock time: 14.1877 s (0.802128 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03007.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -57.7764 [code]
+Ladv: 8.15463 [code]
+Mdot: 5.67425e+23 [g/s] 
+Mdot: 0.00899664 [MSUN/YR] 
+Mdot: 6.54151e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=127 jmax=82 Imax=0.000793996 Iavg=0.000194643
+freq: 8.6e+10 Ftot: 11.7119 Jy (12.2575 Jy unpol xfer) scale=2.35044
+nuLnu = 3.44199e+41 erg/s
+I,Q,U,V [Jy]: 11.7119 0.213628 -0.409969 0.137945
+LP,CP [%]: 3.94718 1.17782
+Total wallclock time: 14.7711 s (1.35342 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03008.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -57.0991 [code]
+Ladv: 7.94387 [code]
+Mdot: 5.60773e+23 [g/s] 
+Mdot: 0.00889116 [MSUN/YR] 
+Mdot: 6.46482e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=118 jmax=90 Imax=0.000781171 Iavg=0.000193886
+freq: 8.6e+10 Ftot: 11.6664 Jy (12.2128 Jy unpol xfer) scale=2.35044
+nuLnu = 3.42862e+41 erg/s
+I,Q,U,V [Jy]: 11.6664 0.227147 -0.400323 0.144086
+LP,CP [%]: 3.94533 1.23506
+Total wallclock time: 14.2865 s (0.956065 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03009.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -56.9079 [code]
+Ladv: 7.89758 [code]
+Mdot: 5.58895e+23 [g/s] 
+Mdot: 0.00886139 [MSUN/YR] 
+Mdot: 6.44317e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=133 jmax=98 Imax=0.000764834 Iavg=0.000193162
+freq: 8.6e+10 Ftot: 11.6228 Jy (12.1625 Jy unpol xfer) scale=2.35044
+nuLnu = 3.4158e+41 erg/s
+I,Q,U,V [Jy]: 11.6228 0.231042 -0.385885 0.14796
+LP,CP [%]: 3.86968 1.27302
+Total wallclock time: 14.1129 s (0.641229 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03010.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -56.7107 [code]
+Ladv: 7.90466 [code]
+Mdot: 5.56958e+23 [g/s] 
+Mdot: 0.00883068 [MSUN/YR] 
+Mdot: 6.42084e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=141 jmax=101 Imax=0.00079302 Iavg=0.000192173
+freq: 8.6e+10 Ftot: 11.5633 Jy (12.0938 Jy unpol xfer) scale=2.35044
+nuLnu = 3.39831e+41 erg/s
+I,Q,U,V [Jy]: 11.5633 0.233642 -0.3705 0.151946
+LP,CP [%]: 3.788 1.31404
+Total wallclock time: 13.9033 s (0.637179 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03011.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -56.1191 [code]
+Ladv: 7.86963 [code]
+Mdot: 5.51148e+23 [g/s] 
+Mdot: 0.00873856 [MSUN/YR] 
+Mdot: 6.35386e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=141 jmax=101 Imax=0.00084771 Iavg=0.000191289
+freq: 8.6e+10 Ftot: 11.5101 Jy (12.0294 Jy unpol xfer) scale=2.35044
+nuLnu = 3.38268e+41 erg/s
+I,Q,U,V [Jy]: 11.5101 0.226884 -0.353773 0.153841
+LP,CP [%]: 3.65137 1.33658
+Total wallclock time: 14.069 s (0.656012 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03012.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -55.2554 [code]
+Ladv: 7.7285 [code]
+Mdot: 5.42666e+23 [g/s] 
+Mdot: 0.00860407 [MSUN/YR] 
+Mdot: 6.25607e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=142 jmax=102 Imax=0.000838106 Iavg=0.0001901
+freq: 8.6e+10 Ftot: 11.4386 Jy (11.9447 Jy unpol xfer) scale=2.35044
+nuLnu = 3.36166e+41 erg/s
+I,Q,U,V [Jy]: 11.4386 0.219074 -0.33899 0.156376
+LP,CP [%]: 3.52857 1.36709
+Total wallclock time: 14.0856 s (0.689495 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03013.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -54.5115 [code]
+Ladv: 7.59029 [code]
+Mdot: 5.3536e+23 [g/s] 
+Mdot: 0.00848824 [MSUN/YR] 
+Mdot: 6.17185e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=141 jmax=102 Imax=0.000809731 Iavg=0.00018872
+freq: 8.6e+10 Ftot: 11.3555 Jy (11.8497 Jy unpol xfer) scale=2.35044
+nuLnu = 3.33726e+41 erg/s
+I,Q,U,V [Jy]: 11.3555 0.210188 -0.32639 0.158309
+LP,CP [%]: 3.41872 1.39412
+Total wallclock time: 13.7662 s (0.508288 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03014.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -54.0272 [code]
+Ladv: 7.51253 [code]
+Mdot: 5.30603e+23 [g/s] 
+Mdot: 0.00841282 [MSUN/YR] 
+Mdot: 6.11701e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=140 jmax=102 Imax=0.000746533 Iavg=0.000187507
+freq: 8.6e+10 Ftot: 11.2825 Jy (11.7654 Jy unpol xfer) scale=2.35044
+nuLnu = 3.31581e+41 erg/s
+I,Q,U,V [Jy]: 11.2825 0.201611 -0.303776 0.159591
+LP,CP [%]: 3.23147 1.41449
+Total wallclock time: 14.9091 s (1.02577 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03015.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -53.7208 [code]
+Ladv: 7.48964 [code]
+Mdot: 5.27595e+23 [g/s] 
+Mdot: 0.00836512 [MSUN/YR] 
+Mdot: 6.08233e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=140 jmax=101 Imax=0.000735216 Iavg=0.00018619
+freq: 8.6e+10 Ftot: 11.2033 Jy (11.6747 Jy unpol xfer) scale=2.35044
+nuLnu = 3.29252e+41 erg/s
+I,Q,U,V [Jy]: 11.2033 0.182833 -0.270792 0.159476
+LP,CP [%]: 2.91642 1.42347
+Total wallclock time: 14.0237 s (0.795056 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03016.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -53.4475 [code]
+Ladv: 7.4871 [code]
+Mdot: 5.2491e+23 [g/s] 
+Mdot: 0.00832256 [MSUN/YR] 
+Mdot: 6.05138e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=139 jmax=103 Imax=0.000715962 Iavg=0.000184788
+freq: 8.6e+10 Ftot: 11.1189 Jy (11.5771 Jy unpol xfer) scale=2.35044
+nuLnu = 3.26773e+41 erg/s
+I,Q,U,V [Jy]: 11.1189 0.160633 -0.239956 0.160251
+LP,CP [%]: 2.597 1.44124
+Total wallclock time: 14.3905 s (1.04659 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03017.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -53.1359 [code]
+Ladv: 7.45399 [code]
+Mdot: 5.2185e+23 [g/s] 
+Mdot: 0.00827404 [MSUN/YR] 
+Mdot: 6.01611e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=140 jmax=104 Imax=0.000698731 Iavg=0.00018311
+freq: 8.6e+10 Ftot: 11.0179 Jy (11.4657 Jy unpol xfer) scale=2.35044
+nuLnu = 3.23805e+41 erg/s
+I,Q,U,V [Jy]: 11.0179 0.14643 -0.208422 0.15944
+LP,CP [%]: 2.31185 1.44709
+Total wallclock time: 14.5545 s (1.2848 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03018.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.6359 [code]
+Ladv: 7.48099 [code]
+Mdot: 5.16939e+23 [g/s] 
+Mdot: 0.00819618 [MSUN/YR] 
+Mdot: 5.95949e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=138 jmax=108 Imax=0.000657661 Iavg=0.000181318
+freq: 8.6e+10 Ftot: 10.9102 Jy (11.3449 Jy unpol xfer) scale=2.35044
+nuLnu = 3.20637e+41 erg/s
+I,Q,U,V [Jy]: 10.9102 0.115281 -0.170279 0.16
+LP,CP [%]: 1.88478 1.46653
+Total wallclock time: 13.9131 s (0.726543 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03019.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.4315 [code]
+Ladv: 7.47472 [code]
+Mdot: 5.14932e+23 [g/s] 
+Mdot: 0.00816435 [MSUN/YR] 
+Mdot: 5.93635e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=132 jmax=121 Imax=0.000628351 Iavg=0.000179432
+freq: 8.6e+10 Ftot: 10.7966 Jy (11.2211 Jy unpol xfer) scale=2.35044
+nuLnu = 3.17301e+41 erg/s
+I,Q,U,V [Jy]: 10.7966 0.0893322 -0.132295 0.161468
+LP,CP [%]: 1.47853 1.49553
+Total wallclock time: 14.3594 s (1.19537 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03020.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.1679 [code]
+Ladv: 7.48986 [code]
+Mdot: 5.12344e+23 [g/s] 
+Mdot: 0.00812331 [MSUN/YR] 
+Mdot: 5.90651e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=138 jmax=103 Imax=0.000598416 Iavg=0.000177482
+freq: 8.6e+10 Ftot: 10.6793 Jy (11.0965 Jy unpol xfer) scale=2.35044
+nuLnu = 3.13853e+41 erg/s
+I,Q,U,V [Jy]: 10.6793 0.0659185 -0.100152 0.164823
+LP,CP [%]: 1.12272 1.54339
+Total wallclock time: 14.2657 s (1.09173 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03021.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.2032 [code]
+Ladv: 7.51673 [code]
+Mdot: 5.1269e+23 [g/s] 
+Mdot: 0.0081288 [MSUN/YR] 
+Mdot: 5.9105e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=133 jmax=124 Imax=0.000580845 Iavg=0.000175418
+freq: 8.6e+10 Ftot: 10.5551 Jy (10.9662 Jy unpol xfer) scale=2.35044
+nuLnu = 3.10203e+41 erg/s
+I,Q,U,V [Jy]: 10.5551 0.0414245 -0.0707947 0.168282
+LP,CP [%]: 0.777099 1.59432
+Total wallclock time: 14.4336 s (1.15813 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03022.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.2044 [code]
+Ladv: 7.58515 [code]
+Mdot: 5.12702e+23 [g/s] 
+Mdot: 0.00812899 [MSUN/YR] 
+Mdot: 5.91064e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=133 jmax=124 Imax=0.000546203 Iavg=0.00017347
+freq: 8.6e+10 Ftot: 10.4379 Jy (10.8434 Jy unpol xfer) scale=2.35044
+nuLnu = 3.06758e+41 erg/s
+I,Q,U,V [Jy]: 10.4379 0.02449 -0.0453529 0.172098
+LP,CP [%]: 0.493803 1.64878
+Total wallclock time: 13.8333 s (0.63562 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03023.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.3046 [code]
+Ladv: 7.57254 [code]
+Mdot: 5.13686e+23 [g/s] 
+Mdot: 0.00814459 [MSUN/YR] 
+Mdot: 5.92198e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=145 jmax=92 Imax=0.000518156 Iavg=0.000171801
+freq: 8.6e+10 Ftot: 10.3375 Jy (10.7415 Jy unpol xfer) scale=2.35044
+nuLnu = 3.03807e+41 erg/s
+I,Q,U,V [Jy]: 10.3375 0.0153528 -0.0203349 0.175632
+LP,CP [%]: 0.246479 1.69898
+Total wallclock time: 14.4125 s (1.22926 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03024.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -52.6423 [code]
+Ladv: 7.5955 [code]
+Mdot: 5.17002e+23 [g/s] 
+Mdot: 0.00819718 [MSUN/YR] 
+Mdot: 5.96022e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=146 jmax=94 Imax=0.00050589 Iavg=0.00017036
+freq: 8.6e+10 Ftot: 10.2508 Jy (10.6545 Jy unpol xfer) scale=2.35044
+nuLnu = 3.01259e+41 erg/s
+I,Q,U,V [Jy]: 10.2508 0.005441 -0.00212285 0.179204
+LP,CP [%]: 0.0569757 1.7482
+Total wallclock time: 14.3728 s (1.01863 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03025.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -53.0894 [code]
+Ladv: 7.63247 [code]
+Mdot: 5.21394e+23 [g/s] 
+Mdot: 0.0082668 [MSUN/YR] 
+Mdot: 6.01084e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=40 jmax=118 Imax=0.000512122 Iavg=0.000169385
+freq: 8.6e+10 Ftot: 10.1921 Jy (10.5982 Jy unpol xfer) scale=2.35044
+nuLnu = 2.99534e+41 erg/s
+I,Q,U,V [Jy]: 10.1921 -0.0034017 0.0168848 0.182463
+LP,CP [%]: 0.168995 1.79024
+Total wallclock time: 14.278 s (1.05194 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03026.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -53.4453 [code]
+Ladv: 7.70624 [code]
+Mdot: 5.24889e+23 [g/s] 
+Mdot: 0.00832222 [MSUN/YR] 
+Mdot: 6.05114e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=40 jmax=117 Imax=0.000524631 Iavg=0.000168568
+freq: 8.6e+10 Ftot: 10.143 Jy (10.5507 Jy unpol xfer) scale=2.35044
+nuLnu = 2.9809e+41 erg/s
+I,Q,U,V [Jy]: 10.143 -0.00263343 0.0285327 0.184901
+LP,CP [%]: 0.2825 1.82294
+Total wallclock time: 14.3463 s (0.800901 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03027.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -53.6709 [code]
+Ladv: 7.72563 [code]
+Mdot: 5.27104e+23 [g/s] 
+Mdot: 0.00835734 [MSUN/YR] 
+Mdot: 6.07668e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=40 jmax=116 Imax=0.000546099 Iavg=0.000168047
+freq: 8.6e+10 Ftot: 10.1116 Jy (10.5203 Jy unpol xfer) scale=2.35044
+nuLnu = 2.97169e+41 erg/s
+I,Q,U,V [Jy]: 10.1116 -0.00331916 0.0352567 0.184815
+LP,CP [%]: 0.350217 1.82775
+Total wallclock time: 13.9125 s (0.737218 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03028.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -54.2261 [code]
+Ladv: 7.79651 [code]
+Mdot: 5.32557e+23 [g/s] 
+Mdot: 0.0084438 [MSUN/YR] 
+Mdot: 6.13954e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=40 jmax=126 Imax=0.000560066 Iavg=0.000167371
+freq: 8.6e+10 Ftot: 10.0709 Jy (10.4782 Jy unpol xfer) scale=2.35044
+nuLnu = 2.95973e+41 erg/s
+I,Q,U,V [Jy]: 10.0709 -0.00233719 0.0361601 0.184516
+LP,CP [%]: 0.359804 1.83217
+Total wallclock time: 13.9499 s (0.711362 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03029.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -54.7662 [code]
+Ladv: 7.88472 [code]
+Mdot: 5.37861e+23 [g/s] 
+Mdot: 0.0085279 [MSUN/YR] 
+Mdot: 6.20068e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=42 jmax=133 Imax=0.00057394 Iavg=0.00016683
+freq: 8.6e+10 Ftot: 10.0383 Jy (10.4438 Jy unpol xfer) scale=2.35044
+nuLnu = 2.95016e+41 erg/s
+I,Q,U,V [Jy]: 10.0383 0.00221408 0.0349916 0.183481
+LP,CP [%]: 0.349277 1.8278
+Total wallclock time: 14.2478 s (0.881465 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03030.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -55.5025 [code]
+Ladv: 7.95983 [code]
+Mdot: 5.45092e+23 [g/s] 
+Mdot: 0.00864255 [MSUN/YR] 
+Mdot: 6.28405e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=39 jmax=133 Imax=0.000581419 Iavg=0.000166108
+freq: 8.6e+10 Ftot: 9.99489 Jy (10.3974 Jy unpol xfer) scale=2.35044
+nuLnu = 2.93739e+41 erg/s
+I,Q,U,V [Jy]: 9.99489 0.00188844 0.028039 0.182883
+LP,CP [%]: 0.281169 1.82976
+Total wallclock time: 14.2351 s (0.950165 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03031.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -55.8939 [code]
+Ladv: 8.01732 [code]
+Mdot: 5.48937e+23 [g/s] 
+Mdot: 0.00870351 [MSUN/YR] 
+Mdot: 6.32837e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=39 jmax=131 Imax=0.000591582 Iavg=0.000165397
+freq: 8.6e+10 Ftot: 9.95213 Jy (10.3506 Jy unpol xfer) scale=2.35044
+nuLnu = 2.92482e+41 erg/s
+I,Q,U,V [Jy]: 9.95213 0.00119304 0.0202308 0.182863
+LP,CP [%]: 0.203634 1.83743
+Total wallclock time: 15.0313 s (1.61225 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03032.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -56.2178 [code]
+Ladv: 8.0248 [code]
+Mdot: 5.52118e+23 [g/s] 
+Mdot: 0.00875394 [MSUN/YR] 
+Mdot: 6.36504e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 
+scale = 2.350439e+00
+imax=38 jmax=122 Imax=0.000596995 Iavg=0.000164695
+freq: 8.6e+10 Ftot: 9.90993 Jy (10.3043 Jy unpol xfer) scale=2.35044
+nuLnu = 2.91242e+41 erg/s
+I,Q,U,V [Jy]: 9.90993 -0.00669462 0.0150721 0.182388
+LP,CP [%]: 0.166419 1.84046
+Total wallclock time: 14.2622 s (0.798736 s)
+
+ipole-beta-1.5. githash: v1.5-65-g905f05d-dirty
+notes: 
+
+nthreads = 32
+Determining dump file type... iharm!
+Reading data header...
+filename: /project/u2grc/Sofia/Simulations/KerrLow/h5_convertedFiles/torus.out0.03033.h5
+custom electron model loaded from dump file...
+Using mixed tp_over_te with trat_small = 1, trat_large = 20, and beta_crit = 1
+sigma_cut = 1
+Using Modified Kerr-Schild coordinates MKS
+MKS parameters a: 0.100000 hslope: 0.300000 Rin: 1.367251 Rout: 1000.000000
+Native coordinate start: 0 0 0 stop: 6.90776 1 6.28319
+Grid start: 0.312802 0 0 stop: 6.90776 1 6.28319
+MBH: 6.2e+09 [Msun]
+L,T,M units: 9.15766e+14 [cm] 30546.6 [s] 3e+26 [g]
+rho,u,B units: 3.90633e-19 [g cm^-3] 351.083 [g cm^-1 s^-2] 66.4217 [G] 
+Reading data...
+dMact: -56.6032 [code]
+Ladv: 8.02043 [code]
+Mdot: 5.55902e+23 [g/s] 
+Mdot: 0.00881395 [MSUN/YR] 
+Mdot: 6.40867e-05 [Mdotedd]
+Mdotedd: 8.67422e+27 [g/s]
+Mdotedd: 137.532 [MSUN/YR]
+Xcam[] = 0.000000e+00 6.907755e+00 5.602915e-02 0.000000e+00
+intensity [cgs] to flux per pixel [Jy] conversion: 2.35044
+Dsource: 5.2148e+25 [cm]
+Dsource: 16900 [kpc]
+FOVx, FOVy: 44.172 44.172 [GM/c^2]
+FOVx, FOVy: 7.75701e-10 7.75701e-10 [rad]
+FOVx, FOVy: 160 160 [muas]
+Resolution: 160x160
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 slurmstepd-uri-cpu004: error: *** JOB 39511568 ON uri-cpu004 CANCELLED AT 2025-07-06T18:27:17 DUE TO TIME LIMIT ***

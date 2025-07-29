@@ -1,0 +1,306 @@
+No conda package cache directories found outside your home directory. To
+prevent conda from filling up your home directory, you can create a new
+directory at `/work/pi_<your_pi_name>/$USER/.conda/pkgs` and reload the module. 
+No conda environment directories found outside your home directory. To prevent
+conda from filling up your home directory, you can create a new directory at
+`/work/pi_<your_pi_name>/$USER/.conda/envs` and reload the module. 
+Loading conda version miniforge3-24.7.1
+/work/pi_gkhanna_uri_edu/Sofia/ipole/scripts/plot_pol.py:91: RuntimeWarning: invalid value encountered in divide
+  lpfrac = 100.*np.sqrt(Q*Q+U*U)/I
+/work/pi_gkhanna_uri_edu/Sofia/ipole/scripts/plot_pol.py:98: RuntimeWarning: invalid value encountered in divide
+  cpfrac = 100.*V/I
+plotting ./torus.out0.03000.h5
+Flux [Jy]:    0.00203964 0.00073044
+I,Q,U,V [Jy]: 0.00203964 -0.000371911 0.000118481 -0.000210533
+LP [%]:       19.1371
+CP [%]:       -10.3221
+EVPA [deg]:   81.1648
+plotting ./torus.out0.03001.h5
+Flux [Jy]:    0.00113572 2.13591e-07
+I,Q,U,V [Jy]: 0.00113572 5.19279e-05 1.81774e-05 -3.56289e-06
+LP [%]:       4.84429
+CP [%]:       -0.313712
+EVPA [deg]:   9.64631
+plotting ./torus.out0.03002.h5
+Flux [Jy]:    0.00111379 4.62578e-178
+I,Q,U,V [Jy]: 0.00111379 7.60433e-05 4.09649e-05 -3.28874e-06
+LP [%]:       7.75508
+CP [%]:       -0.295275
+EVPA [deg]:   14.1558
+plotting ./torus.out0.03003.h5
+Flux [Jy]:    0.00111167 3.27096e-166
+I,Q,U,V [Jy]: 0.00111167 7.92174e-05 4.84725e-05 -2.26567e-06
+LP [%]:       8.35418
+CP [%]:       -0.203809
+EVPA [deg]:   15.7311
+plotting ./torus.out0.03004.h5
+Flux [Jy]:    0.00110446 2.88159e-145
+I,Q,U,V [Jy]: 0.00110446 9.27066e-05 4.70364e-05 -1.60592e-06
+LP [%]:       9.41245
+CP [%]:       -0.145403
+EVPA [deg]:   13.4509
+plotting ./torus.out0.03005.h5
+Flux [Jy]:    0.00110282 4.71266e-144
+I,Q,U,V [Jy]: 0.00110282 8.69878e-05 6.80163e-05 -1.14979e-06
+LP [%]:       10.0127
+CP [%]:       -0.104259
+EVPA [deg]:   19.0111
+plotting ./torus.out0.03006.h5
+Flux [Jy]:    0.00109658 1.22555e-165
+I,Q,U,V [Jy]: 0.00109658 7.8802e-05 7.31202e-05 -1.59645e-06
+LP [%]:       9.8032
+CP [%]:       -0.145584
+EVPA [deg]:   21.4291
+plotting ./torus.out0.03007.h5
+Flux [Jy]:    0.00110295 1.16919e-186
+I,Q,U,V [Jy]: 0.00110295 6.83512e-05 8.5729e-05 -1.40072e-06
+LP [%]:       9.94079
+CP [%]:       -0.126997
+EVPA [deg]:   25.7175
+plotting ./torus.out0.03008.h5
+Flux [Jy]:    0.00110629 2.92458e-182
+I,Q,U,V [Jy]: 0.00110629 5.25522e-05 9.63888e-05 -2.37718e-07
+LP [%]:       9.92359
+CP [%]:       -0.0214878
+EVPA [deg]:   30.7002
+plotting ./torus.out0.03009.h5
+Flux [Jy]:    0.00111492 2.79258e-153
+I,Q,U,V [Jy]: 0.00111492 4.92958e-05 8.6199e-05 -6.91877e-07
+LP [%]:       8.90637
+CP [%]:       -0.0620559
+EVPA [deg]:   30.1178
+plotting ./torus.out0.03010.h5
+Flux [Jy]:    0.00112724 9.63162e-157
+I,Q,U,V [Jy]: 0.00112724 4.12872e-05 8.02675e-05 -5.24186e-07
+LP [%]:       8.00748
+CP [%]:       -0.0465017
+EVPA [deg]:   31.3901
+plotting ./torus.out0.03011.h5
+Flux [Jy]:    0.00113054 4.04837e-231
+I,Q,U,V [Jy]: 0.00113054 3.37907e-05 7.41307e-05 -1.13949e-07
+LP [%]:       7.20617
+CP [%]:       -0.0100791
+EVPA [deg]:   32.7477
+plotting ./torus.out0.03012.h5
+Flux [Jy]:    0.00112215 6.42098e-197
+I,Q,U,V [Jy]: 0.00112215 3.53426e-05 6.00614e-05 1.21729e-06
+LP [%]:       6.21027
+CP [%]:       0.108479
+EVPA [deg]:   29.7629
+plotting ./torus.out0.03013.h5
+Flux [Jy]:    0.00112451 1.42202e-133
+I,Q,U,V [Jy]: 0.00112451 3.85171e-05 5.12737e-05 1.85504e-06
+LP [%]:       5.70285
+CP [%]:       0.164964
+EVPA [deg]:   26.543
+plotting ./torus.out0.03014.h5
+Flux [Jy]:    0.00113471 5.17583e-110
+I,Q,U,V [Jy]: 0.00113471 2.32629e-05 4.74308e-05 1.13027e-06
+LP [%]:       4.65567
+CP [%]:       0.0996083
+EVPA [deg]:   31.937
+plotting ./torus.out0.03015.h5
+Flux [Jy]:    0.00114052 1.08693e-118
+I,Q,U,V [Jy]: 0.00114052 1.74112e-05 3.06419e-05 1.04115e-07
+LP [%]:       3.09008
+CP [%]:       0.00912871
+EVPA [deg]:   30.1971
+plotting ./torus.out0.03016.h5
+Flux [Jy]:    0.00114627 6.43021e-150
+I,Q,U,V [Jy]: 0.00114627 3.39023e-05 1.43513e-05 -7.88744e-07
+LP [%]:       3.21169
+CP [%]:       -0.0688095
+EVPA [deg]:   11.4718
+plotting ./torus.out0.03017.h5
+Flux [Jy]:    0.00116832 5.37057e-210
+I,Q,U,V [Jy]: 0.00116832 4.27151e-05 8.83673e-06 -9.66743e-07
+LP [%]:       3.73354
+CP [%]:       -0.0827466
+EVPA [deg]:   5.84413
+plotting ./torus.out0.03018.h5
+Flux [Jy]:    0.00117968 3.40275e-245
+I,Q,U,V [Jy]: 0.00117968 5.01657e-05 1.20372e-05 -8.99155e-07
+LP [%]:       4.3732
+CP [%]:       -0.0762204
+EVPA [deg]:   6.74646
+plotting ./torus.out0.03019.h5
+Flux [Jy]:    0.00118523 9.45544e-218
+I,Q,U,V [Jy]: 0.00118523 6.02069e-05 2.61056e-05 -8.12479e-07
+LP [%]:       5.53675
+CP [%]:       -0.0685506
+EVPA [deg]:   11.7207
+plotting ./torus.out0.03020.h5
+Flux [Jy]:    0.00118263 3.0054e-213
+I,Q,U,V [Jy]: 0.00118263 8.41838e-05 2.71654e-05 -8.3713e-07
+LP [%]:       7.4798
+CP [%]:       -0.0707856
+EVPA [deg]:   8.94223
+plotting ./torus.out0.03021.h5
+Flux [Jy]:    0.0011852 8.9898e-220
+I,Q,U,V [Jy]: 0.0011852 8.57715e-05 2.61861e-05 -8.45658e-07
+LP [%]:       7.56664
+CP [%]:       -0.0713515
+EVPA [deg]:   8.48874
+plotting ./torus.out0.03022.h5
+Flux [Jy]:    0.00118359 2.09874e-222
+I,Q,U,V [Jy]: 0.00118359 7.5638e-05 4.10653e-05 -8.80658e-07
+LP [%]:       7.27166
+CP [%]:       -0.0744056
+EVPA [deg]:   14.2492
+plotting ./torus.out0.03023.h5
+Flux [Jy]:    0.00118513 8.27376e-222
+I,Q,U,V [Jy]: 0.00118513 7.04428e-05 4.946e-05 -5.9914e-07
+LP [%]:       7.26273
+CP [%]:       -0.050555
+EVPA [deg]:   17.5369
+plotting ./torus.out0.03024.h5
+Flux [Jy]:    0.00117628 2.40263e-210
+I,Q,U,V [Jy]: 0.00117628 6.6867e-05 4.45744e-05 -3.88503e-07
+LP [%]:       6.83189
+CP [%]:       -0.0330281
+EVPA [deg]:   16.844
+plotting ./torus.out0.03025.h5
+Flux [Jy]:    0.00116889 1.47837e-185
+I,Q,U,V [Jy]: 0.00116889 5.84441e-05 5.94085e-05 -1.0204e-07
+LP [%]:       7.12963
+CP [%]:       -0.00872973
+EVPA [deg]:   22.7344
+plotting ./torus.out0.03026.h5
+Flux [Jy]:    0.00117006 5.09945e-180
+I,Q,U,V [Jy]: 0.00117006 4.62903e-05 5.49106e-05 1.95549e-07
+LP [%]:       6.13805
+CP [%]:       0.0167127
+EVPA [deg]:   24.9344
+plotting ./torus.out0.03027.h5
+Flux [Jy]:    0.00116162 1.59355e-186
+I,Q,U,V [Jy]: 0.00116162 4.50023e-05 4.45827e-05 2.60469e-07
+LP [%]:       5.4533
+CP [%]:       0.0224228
+EVPA [deg]:   22.3658
+plotting ./torus.out0.03028.h5
+Flux [Jy]:    0.00114917 2.20229e-202
+I,Q,U,V [Jy]: 0.00114917 3.48165e-05 4.40757e-05 3.84616e-07
+LP [%]:       4.88772
+CP [%]:       0.0334692
+EVPA [deg]:   25.847
+plotting ./torus.out0.03029.h5
+Flux [Jy]:    0.00115172 3.91122e-215
+I,Q,U,V [Jy]: 0.00115172 4.06903e-05 2.73315e-05 3.50343e-07
+LP [%]:       4.25601
+CP [%]:       0.030419
+EVPA [deg]:   16.9446
+plotting ./torus.out0.03030.h5
+Flux [Jy]:    0.00114801 4.04835e-238
+I,Q,U,V [Jy]: 0.00114801 1.94142e-05 2.22968e-05 2.79556e-07
+LP [%]:       2.57527
+CP [%]:       0.0243513
+EVPA [deg]:   24.4767
+plotting ./torus.out0.03031.h5
+Flux [Jy]:    0.0011389 1.30268e-253
+I,Q,U,V [Jy]: 0.0011389 1.41836e-05 2.47846e-05 1.65402e-07
+LP [%]:       2.50733
+CP [%]:       0.0145229
+EVPA [deg]:   30.1093
+plotting ./torus.out0.03032.h5
+Flux [Jy]:    0.00113996 1.09627e-268
+I,Q,U,V [Jy]: 0.00113996 1.0687e-05 2.45188e-05 2.00427e-07
+LP [%]:       2.34628
+CP [%]:       0.017582
+EVPA [deg]:   33.2246
+plotting ./torus.out0.03033.h5
+Flux [Jy]:    0.00114083 6.5175e-260
+I,Q,U,V [Jy]: 0.00114083 3.26347e-06 7.915e-06 2.56734e-07
+LP [%]:       0.750452
+CP [%]:       0.0225041
+EVPA [deg]:   33.7965
+plotting ./torus.out0.03034.h5
+Flux [Jy]:    0.00114265 8.19086e-257
+I,Q,U,V [Jy]: 0.00114265 6.70265e-06 1.69135e-05 2.36061e-07
+LP [%]:       1.59219
+CP [%]:       0.0206591
+EVPA [deg]:   34.1911
+plotting ./torus.out0.03035.h5
+Flux [Jy]:    0.00114197 1.21355e-258
+I,Q,U,V [Jy]: 0.00114197 -6.23443e-06 8.51593e-06 1.74753e-07
+LP [%]:       0.924204
+CP [%]:       0.0153028
+EVPA [deg]:   63.1038
+plotting ./torus.out0.03036.h5
+Flux [Jy]:    0.00112655 8.65116e-248
+I,Q,U,V [Jy]: 0.00112655 -6.05312e-06 1.03983e-05 1.83033e-07
+LP [%]:       1.06802
+CP [%]:       0.0162472
+EVPA [deg]:   60.1025
+plotting ./torus.out0.03037.h5
+Flux [Jy]:    0.00113149 1.45208e-247
+I,Q,U,V [Jy]: 0.00113149 -1.12184e-05 -5.91414e-07 1.02435e-07
+LP [%]:       0.992845
+CP [%]:       0.00905307
+EVPA [deg]:   -88.4912
+plotting ./torus.out0.03038.h5
+Flux [Jy]:    0.00112746 4.54107e-252
+I,Q,U,V [Jy]: 0.00112746 -2.90632e-05 -3.19936e-06 1.30571e-07
+LP [%]:       2.59334
+CP [%]:       0.011581
+EVPA [deg]:   -86.8591
+plotting ./torus.out0.03039.h5
+Flux [Jy]:    0.00112002 4.07601e-250
+I,Q,U,V [Jy]: 0.00112002 -2.99229e-05 -1.92774e-06 2.75531e-08
+LP [%]:       2.67718
+CP [%]:       0.00246006
+EVPA [deg]:   -88.157
+plotting ./torus.out0.03040.h5
+Flux [Jy]:    0.00111416 2.03356e-256
+I,Q,U,V [Jy]: 0.00111416 -3.55042e-05 -1.02986e-05 -1.49424e-07
+LP [%]:       3.31799
+CP [%]:       -0.0134114
+EVPA [deg]:   -81.9122
+ffmpeg version 7.1.1 Copyright (c) 2000-2025 the FFmpeg developers
+  built with gcc 13.3.0 (conda-forge gcc 13.3.0-2)
+  configuration: --prefix=/project/u2grc/Sofia/Simulations/KerrLow/conda-envs/ipole --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1748704128358/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1748704128358/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1748704128358/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1748704128358/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --disable-gnutls --enable-libvpx --enable-libass --enable-pthreads --enable-alsa --enable-libpulse --enable-vaapi --enable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libmp3lame --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-ffplay --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1748704128358/_build_env/bin/pkg-config
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.101 / 61. 19.101
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+Input #0, image2, from '*.png':
+  Duration: 00:00:05.13, start: 0.000000, bitrate: N/A
+  Stream #0:0: Video: png, rgba(pc, gbr/unknown/unknown), 800x800 [SAR 3937:3937 DAR 1:1], 8 fps, 8 tbr, 8 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x5a2e3d906900] using SAR=9/16
+[libx264 @ 0x5a2e3d906900] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX FMA3 BMI2 AVX2
+[libx264 @ 0x5a2e3d906900] profile High, level 3.1, 4:2:0, 8-bit
+[libx264 @ 0x5a2e3d906900] 264 - core 164 r3095 baee400 - H.264/MPEG-4 AVC codec - Copyleft 2003-2022 - http://www.videolan.org/x264.html - options: cabac=1 ref=3 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=7 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=1 lookahead_threads=1 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=2 keyint=250 keyint_min=8 scenecut=40 intra_refresh=0 rc_lookahead=40 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/project/u2grc/Sofia/Simulations/KerrLow/out.mp4':
+  Metadata:
+    encoder         : Lavf61.7.100
+  Stream #0:0: Video: h264 (avc1 / 0x31637661), yuv420p(tv, progressive), 1280x720 [SAR 9:16 DAR 1:1], q=2-31, 8 fps, 16384 tbn
+      Metadata:
+        encoder         : Lavc61.19.101 libx264
+      Side data:
+        cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A    frame=    1 fps=1.0 q=21.0 size=       0KiB time=-00:00:00.12 bitrate=N/A speed=N/A    frame=   19 fps= 13 q=21.0 size=     256KiB time=00:00:02.12 bitrate= 987.1kbits/s speed=1.42x    frame=   37 fps= 18 q=21.0 size=     256KiB time=00:00:04.37 bitrate= 479.4kbits/s speed=2.19x    [out#0/mp4 @ 0x5a2e3d907940] video:452KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.294670%
+frame=   41 fps= 20 q=21.0 Lsize=     453KiB time=00:00:04.87 bitrate= 761.9kbits/s speed=2.32x    
+[libx264 @ 0x5a2e3d906900] frame I:1     Avg QP:10.70  size: 67492
+[libx264 @ 0x5a2e3d906900] frame P:11    Avg QP:16.45  size: 13607
+[libx264 @ 0x5a2e3d906900] frame B:29    Avg QP:21.24  size:  8449
+[libx264 @ 0x5a2e3d906900] consecutive B-frames:  4.9%  0.0%  7.3% 87.8%
+[libx264 @ 0x5a2e3d906900] mb I  I16..4: 46.9% 22.5% 30.6%
+[libx264 @ 0x5a2e3d906900] mb P  I16..4:  1.4%  0.5%  0.8%  P16..4: 10.1%  3.9%  3.0%  0.0%  0.0%    skip:80.3%
+[libx264 @ 0x5a2e3d906900] mb B  I16..4:  1.7%  0.4%  0.3%  B16..8: 15.1%  4.6%  1.7%  direct: 1.0%  skip:75.3%  L0:45.3% L1:45.9% BI: 8.7%
+[libx264 @ 0x5a2e3d906900] 8x8 transform intra:19.7% inter:18.3%
+[libx264 @ 0x5a2e3d906900] coded y,uvDC,uvAC intra: 17.7% 10.1% 9.8% inter: 6.3% 5.1% 4.8%
+[libx264 @ 0x5a2e3d906900] i16 v,h,dc,p: 51% 47%  3%  0%
+[libx264 @ 0x5a2e3d906900] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 57%  3% 38%  0%  0%  0%  0%  0%  1%
+[libx264 @ 0x5a2e3d906900] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 37% 29% 18%  2%  3%  2%  4%  2%  3%
+[libx264 @ 0x5a2e3d906900] i8c dc,h,v,p: 88%  5%  7%  1%
+[libx264 @ 0x5a2e3d906900] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x5a2e3d906900] ref P L0: 44.6%  1.9% 35.9% 17.6%
+[libx264 @ 0x5a2e3d906900] ref B L0: 71.7% 22.6%  5.6%
+[libx264 @ 0x5a2e3d906900] ref B L1: 94.9%  5.1%
+[libx264 @ 0x5a2e3d906900] kb/s:721.49

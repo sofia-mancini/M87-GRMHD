@@ -1,0 +1,63 @@
+No conda package cache directories found outside your home directory. To
+prevent conda from filling up your home directory, you can create a new
+directory at `/work/pi_<your_pi_name>/$USER/.conda/pkgs` and reload the module. 
+No conda environment directories found outside your home directory. To prevent
+conda from filling up your home directory, you can create a new directory at
+`/work/pi_<your_pi_name>/$USER/.conda/envs` and reload the module. 
+Loading conda version miniforge3-24.7.1
+ - loading torus.out0.03000.h5
+ - loading torus.out0.03001.h5
+ - loading torus.out0.03002.h5
+ - loading torus.out0.03003.h5
+ - loading torus.out0.03004.h5
+ - loading torus.out0.03005.h5
+ - loading torus.out0.03006.h5
+ - loading torus.out0.03007.h5
+ - loading torus.out0.03008.h5
+ - loading torus.out0.03009.h5
+ - loading torus.out0.03010.h5
+ - loading torus.out0.03011.h5
+ - loading torus.out0.03012.h5
+ - loading torus.out0.03013.h5
+ - loading torus.out0.03014.h5
+ - loading torus.out0.03015.h5
+ - loading torus.out0.03016.h5
+ - loading torus.out0.03017.h5
+ - loading torus.out0.03018.h5
+ - loading torus.out0.03019.h5
+ - loading torus.out0.03020.h5
+ - loading torus.out0.03021.h5
+ - loading torus.out0.03022.h5
+ - loading torus.out0.03023.h5
+ - loading torus.out0.03024.h5
+ - loading torus.out0.03025.h5
+ - loading torus.out0.03026.h5
+ - loading torus.out0.03027.h5
+ - loading torus.out0.03028.h5
+ - loading torus.out0.03029.h5
+ - loading torus.out0.03030.h5
+ - loading torus.out0.03031.h5
+ - loading torus.out0.03032.h5
+ - writing output file /project/u2grc/Sofia/Simulations/KerrLow/average.h5
+/project/u2grc/Sofia/Simulations/KerrLow/conda-envs/quickAnalysis/lib/python3.10/site-packages/ehtim/__init__.py:58: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/project/u2grc/Sofia/Simulations/KerrLow/conda-envs/quickAnalysis/lib/python3.10/runpy.py:126: RuntimeWarning: 'QuickImageStats.quick_analysis' found in sys.modules after import of package 'QuickImageStats', but prior to execution of 'QuickImageStats.quick_analysis'; this may result in unpredictable behaviour
+  warn(RuntimeWarning(msg))
+Warning: No NFFT installed!
+Welcome to eht-imaging! v 1.2.10 
+
+Loading hdf5 image:  /project/u2grc/Sofia/Simulations/KerrLow/average.h5
+   assuming source M87: ra 12.514 hr: dec 12.391 deg
+Beta Modes:
+   0: |beta_0|=0.021, arg(beta_0)=-58.608
+   1: |beta_1|=0.019, arg(beta_1)=81.878
+   2: |beta_2|=0.042, arg(beta_2)=154.461
+   3: |beta_3|=0.055, arg(beta_3)=-154.735
+   4: |beta_4|=0.046, arg(beta_4)=-109.830
+   5: |beta_5|=0.027, arg(beta_5)=-65.353
+|beta_2|/|beta_1| = 2.220
+|beta_2|/sum(|beta_i|) = 0.202
+m_net = 0.021
+m_avg = 0.099
+v_net = 0.014
+v_avg = 0.020
