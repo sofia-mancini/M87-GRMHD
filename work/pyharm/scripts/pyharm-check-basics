@@ -1,0 +1,117 @@
+#!/usr/bin/env python3
+
+__license__ = """
+ File: pyharm-check-basics
+ 
+ BSD 3-Clause License
+ 
+ Copyright (c) 2020-2023, Ben Prather and AFD Group at UIUC
+ All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ 
+ 1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+ 
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ 
+ 3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+"""
+
+import click
+import psutil
+from functools import partial
+
+import numpy as np
+
+import pyharm
+from pyharm.parallel import map_parallel
+
+def check_dump_properties(name, check_all=True, check_divb=False, allowed_divb=1e-9, check_nan=False):
+    dump = pyharm.load_dump(name)
+    retcode = 0
+
+    if check_divb or check_all:
+        not_tested_divb = 0
+        for var,desc in [('divB', 'from file'),
+                         ('divB_prims', 'from primitive vars'),
+                         ('divB_cons', 'from conserved vars')]:
+            try:
+                max_divb = np.max(dump[var])
+                print("Maximum divB {} is {:g}".format(desc, max_divb))
+                if max_divb > allowed_divb or np.isnan(max_divb):
+                    print("Value too high! Returning error.")
+                    retcode = 1
+            except Exception:
+                print("Did not test divB {}!".format(desc))
+                not_tested_divb += 1
+
+        if not_tested_divb >= 3:
+            print("Could not test divB!  Returning error.")
+            retcode = -1
+
+    if check_nan or check_all:
+        if np.any(np.isnan(dump['prims'])):
+            print("")
+
+    del dump
+    return retcode
+
+@click.command()
+@click.argument('files', nargs=-1)
+# Common options
+@click.option('-nt', '--nthreads', default=None, help="Number of parallel conversions -- defaults to min(nprocs, 64)")
+@click.option('-d', '--debug', is_flag=True, help="Serial operation for debugging")
+# Checks
+@click.option('-all', '--check_all', default=False, help="Perform all checks")
+@click.option('-divb', '--check_divb', default=True, help="Check magnetic field divergence")
+@click.option('--allowed_divb', default=1e-9, help="Maximum allowable field divergence")
+@click.option('-nan', '--check_nan', default=True, help="Check for any NaN in the file")
+def convert(files, debug, nthreads, **kwargs):
+    """Check basic properties which should be true of a GRMHD file, and return a code
+    if it fails.
+
+    Currently limited to magnetic field divergence, lack of NaN. Plenty of things which might
+    be reasonable to include in future.
+    """
+
+    if debug:
+        check_results = []
+        for file in files:
+            check_results.append(check_dump_properties(file, **kwargs))
+    else:
+        if nthreads is None:
+            nthreads = min(min(psutil.cpu_count(), len(files)), 32)
+        else:
+            nthreads = int(nthreads)
+
+        check_func = partial(check_dump_properties, **kwargs)
+
+        print("Checking {} files with {} threads".format(len(files), nthreads))
+        check_results = map_parallel(check_func, files, nprocs=nthreads)
+        print("Checked all files.")
+    # Return first nonzero exit code
+    checks_array = np.array(check_results)
+    if np.any(checks_array):
+        exit(checks_array[np.nonzero(checks_array)].flatten()[0])
+    else:
+        exit(0)
+
+if __name__ == "__main__":
+    convert()

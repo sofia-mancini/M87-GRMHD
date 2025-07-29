@@ -1,0 +1,267 @@
+#!/usr/bin/env python3
+
+__license__ = """
+ File: pyharm-write-xdmf
+ 
+ BSD 3-Clause License
+ 
+ Copyright (c) 2020-2023, Ben Prather and AFD Group at UIUC
+ All rights reserved.
+ 
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ 
+ 1. Redistributions of source code must retain the above copyright notice, this
+    list of conditions and the following disclaimer.
+ 
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+    this list of conditions and the following disclaimer in the documentation
+    and/or other materials provided with the distribution.
+ 
+ 3. Neither the name of the copyright holder nor the names of its
+    contributors may be used to endorse or promote products derived from
+    this software without specific prior written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+"""
+
+import click
+import psutil
+from functools import partial
+
+import pyharm
+from pyharm.util import i_of
+from pyharm.parallel import map_parallel
+
+@click.command()
+@click.argument('dumpnames', nargs=-1)
+@click.option('-rout', '--rout_vis', default=100., help="Default outer radius when visualizing")
+@click.option('-nt', '--nthreads', default=None, help="Number of parallel conversions -- defaults to nprocs")
+@click.option('-d', '--debug', is_flag=True, help="Serial operation for debugging")
+@click.version_option(package_name='pyharm')
+def gen_xdmf(dumpnames, rout_vis, nthreads, debug):
+    if debug:
+        for dumpname in dumpnames:
+            write_xml_file(pyharm.load_dump(dumpname), rout_vis)
+    else:
+        map_fn = partial(write_xml_file, rout_vis=rout_vis)
+
+        if nthreads is None:
+            nthreads = min(psutil.cpu_count(), len(dumpnames))
+
+        print("Writing {} XDMF description files with {} threads".format(len(dumpnames), nthreads))
+        map_parallel(map_fn, dumpnames)
+        print("Generated all files.")
+
+# Code below originally via Jonah Miller
+
+# Original note:
+
+# Adapted very closely from ebhlight xdmf_output.c
+# Original comments below
+# See bottom of file for command-line wrapping
+
+# For information on xdmf see:
+# http://www.xdmf.org/index.php/XDMF_Model_and_Format
+# and
+# https://www.visitusers.org/index.php?title=Using_XDMF_to_read_HDF5
+# And this was a particularly useful example:
+# https://stackoverflow.com/questions/36718593/describing-5-dimensional-hdf5-matrix-with-xdmf
+#
+# Note that visit supports vectors and tensors... and in principle xdmf does too
+# however discussions online indicate that combining the two is dodgy,
+# so I treat everything as a scalar using hyperslabs
+# ~JMM
+
+# TODO(BSP) incorporate into pyharm proper?
+def write_xml_file(dumpname, rout_vis):
+    dump = pyharm.load_dump(dumpname)
+
+    # Dimensions
+    global N1TOT, N2TOT, N3TOT, iX1_max, NDIM
+    N1TOT = dump['n1tot']
+    N2TOT = dump['n2tot']
+    N3TOT = dump['n3tot']
+    NDIM = 4 # We don't even record this anymore
+    iX1_max = i_of(dump['r1d'], rout_vis)
+
+    # Variable names
+    vnams = dump['prim_names']
+
+    # Filenames
+    global dname, gname, fname
+    dname = dump.fname
+    gname = "/".join(dname.split("/")[:-1])+"grid.h5"
+    fname = dname+".xdmf"
+
+    # jcon, divb. Usually *not* the same as pyharm's is_full_dump
+    full_dump = False
+
+    fp = open(fname, "w")
+
+    # header
+    fp.write("<?xml version=\"1.0\" ?>\n")
+    fp.write("<!DOCTYPE Xdmf SYSTEM \"Xdmf.dtd\" []>\n")
+    fp.write("<Xdmf Version=\"3.0\">\n")
+    fp.write("  <Domain>\n")
+    fp.write("    <Grid Name=\"mesh\" GridType=\"Uniform\">\n")
+    fp.write("      <Time Value=\"%16.14e\"/>\n" % dump['t'])
+    fp.write("      <Topology TopologyType=\"3DSMesh\" NumberOfElements=\"%d %d %d\"/>\n" %
+        (iX1_max+1, N2TOT+1, N3TOT+1))
+
+    geom_meta(fp) # Geometry
+    fp.write("\n")
+
+    # Jacobians
+    fp.write("      <!-- JACOBIANS -->\n")
+    fp.write("      <!-- contravariant -->\n")
+    tensor_meta(fp, "Lambda_h2cart_con", gname, 64)
+    fp.write("      <!-- covariant -->\n")
+    tensor_meta(fp, "Lambda_h2cart_cov", gname, 64)
+    fp.write("\n")
+
+    # Metric
+    fp.write("      <!-- METRIC -->\n")
+    fp.write("      <!-- contravariant -->\n")
+    tensor_meta(fp, "gcon", gname, 64)
+    fp.write("      <!-- covariant -->\n")
+    tensor_meta(fp, "gcov", gname, 64)
+    fp.write("      <!-- determinant -->\n")
+    scalar_meta(fp, "gdet", gname, 64)
+    fp.write("      <!-- lapse -->\n")
+    scalar_meta(fp, "alpha", gname, 64)
+    fp.write("\n")
+
+    # Variables
+    fp.write("      <!-- PRIMITIVES -->\n")
+    for ip in range(len(vnams)):
+        prim_meta(fp, vnams, ip)
+    fp.write("\n")
+
+    if (full_dump):
+        fp.write("      <!-- DERIVED VARS -->\n")
+        scalar_meta(fp, "/extras/divb", dname, 32)
+        fp.write("      <!-- jcon -->\n")
+        vec_meta(fp, "jcon")
+        if False:
+            scalar_meta(fp, "Qvisc_e", dname, 32)
+            scalar_meta(fp, "Qvisc_p", dname, 32)
+
+    # footer
+    fp.write("    </Grid>\n")
+    fp.write("  </Domain>\n")
+    fp.write("</Xdmf>\n")
+
+    fp.close()
+
+def geom_meta(fp):
+    fp.write("      <!-- GRID DEFINITION -->\n")
+    fp.write("      <Geometry GeometryType=\"X_Y_Z\">\n")
+    for d in range(1,4):
+        coord_meta(fp, d)
+    fp.write("      </Geometry>\n")
+
+
+def vec_meta(fp, name):
+    for mu in range(4):
+        vec_component(fp, name, mu)
+
+def tensor_meta(fp, name, sourcename, precision):
+    for mu in range(4):
+        for nu in range(4):
+            tensor_component(fp, name, sourcename, precision, mu, nu)
+
+def coord_meta(fp, indx):
+    fp.write("        <DataItem ItemType=\"Hyperslab\" Dimensions=\"%d %d %d\" Type=\"Hyperslab\">\n" %
+        (iX1_max+1, N2TOT+1, N3TOT+1))
+    fp.write("          <DataItem Dimensions=\"3 4\" Format=\"XML\">\n")
+    fp.write("            0 0 0 %d\n" % indx)
+    fp.write("            1 1 1 1\n")
+    fp.write("            %d %d %d 1\n" % (iX1_max+1, N2TOT+1, N3TOT+1))
+    fp.write("          </DataItem>\n")
+    fp.write("          <DataItem Dimensions=\"%d %d %d %d\" NumberType=\"Float\" Precision=\"64\" Format=\"HDF\">\n" %
+        (N1TOT+1, N2TOT+1, N3TOT+1, NDIM))
+    fp.write("            %s:/XFcart\n" % gname)
+    fp.write("          </DataItem>\n")
+    fp.write("        </DataItem>\n")
+
+
+def prim_meta(fp, vnams, indx):
+    fp.write("      <Attribute Name=\"%s\" AttributeType=\"Scalar\" Center=\"Cell\">\n" %
+        vnams[indx])
+    fp.write("        <DataItem ItemType=\"Hyperslab\" Dimensions=\"%d %d %d\" Type=\"Hyperslab\">\n" %
+        (iX1_max, N2TOT, N3TOT))
+    fp.write("          <DataItem Dimensions=\"3 4\" Format=\"XML\">\n")
+    fp.write("            0 0 0 %d\n" % indx)
+    fp.write("            1 1 1 1\n")
+    fp.write("            %d %d %d 1\n" % (iX1_max, N2TOT, N3TOT))
+    fp.write("          </DataItem>\n")
+    fp.write("          <DataItem Dimensions=\"%d %d %d %d\" NumberType=\"Float\" Precision=\"32\" Format=\"HDF\">\n" %
+        (N1TOT, N2TOT, N3TOT, len(vnams)))
+    fp.write("            %s:/prims\n" % dname)
+    fp.write("          </DataItem>\n")
+    fp.write("        </DataItem>\n")
+    fp.write("      </Attribute>\n")
+
+
+def scalar_meta(fp, name, sourcename, precision):
+    fp.write("      <Attribute Name=\"%s\" AttributeType=\"Scalar\" Center=\"Cell\">\n" % name)
+    fp.write("        <DataItem ItemType=\"Hyperslab\" Dimensions=\"%d %d %d\" Type=\"Hyperslab\">\n" %
+        (iX1_max, N2TOT, N3TOT))
+    fp.write("          <DataItem Dimensions=\"3 3\" Format=\"XML\">\n")
+    fp.write("            0 0 0\n")
+    fp.write("            1 1 1\n")
+    fp.write("            %d %d %d\n" % (iX1_max, N2TOT, N3TOT))
+    fp.write("          </DataItem>\n")
+    fp.write("          <DataItem Dimensions=\"%d %d %d\" NumberType=\"Float\" Precision=\"%d\" Format=\"HDF\">\n" %
+        (N1TOT, N2TOT, N3TOT, precision))
+    fp.write("            %s:/%s\n" % (sourcename, name))
+    fp.write("          </DataItem>\n")
+    fp.write("        </DataItem>\n")
+    fp.write("      </Attribute>\n")
+
+
+def vec_component(fp, name, indx):
+    fp.write("      <Attribute Name=\"%s_%d\" AttributeType=\"Scalar\" Center=\"Cell\">\n" %
+        (name, indx))
+    fp.write("        <DataItem ItemType=\"Hyperslab\" Dimensions=\"%d %d %d\" Type=\"Hyperslab\">\n" %
+        (iX1_max, N2TOT, N3TOT))
+    fp.write("          <DataItem Dimensions=\"3 4\" Format=\"XML\">\n")
+    fp.write("            0 0 0 %d\n" % indx)
+    fp.write("            1 1 1 1 \n")
+    fp.write("            %d %d %d 1\n" % (iX1_max, N2TOT, N3TOT))
+    fp.write("          </DataItem>\n")
+    fp.write("          <DataItem Dimensions=\"%d %d %d %d\" NumberType=\"Float\" Precision=\"32\" Format=\"HDF\">\n" %
+        (N1TOT, N2TOT, N3TOT, NDIM))
+    fp.write("            %s:/%s\n" % (fname, name))
+    fp.write("          </DataItem>\n")
+    fp.write("        </DataItem>\n")
+    fp.write("      </Attribute>\n")
+
+
+def tensor_component(fp, name, sourcename, precision, mu, nu):
+    fp.write("      <Attribute Name=\"%s_%d%d\" AttributeType=\"Scalar\" Center=\"Cell\">\n" % (name, mu, nu))
+    fp.write("        <DataItem ItemType=\"Hyperslab\" Dimensions=\"%d %d %d\" Type=\"Hyperslab\">\n" % (iX1_max, N2TOT, N3TOT))
+    fp.write("          <DataItem Dimensions=\"3 5\" Format=\"XML\">\n")
+    fp.write("            0 0 0 %d %d\n" % (mu, nu))
+    fp.write("            1 1 1 1 1\n")
+    fp.write("            %d %d %d 1 1\n" % (iX1_max, N2TOT, N3TOT))
+    fp.write("          </DataItem>\n")
+    fp.write("          <DataItem Dimensions=\"%d %d %d %d %d\" NumberType=\"Float\" Precision=\"%d\" Format=\"HDF\">\n" %
+        (N1TOT, N2TOT, N3TOT, NDIM, NDIM, precision))
+    fp.write("            %s:/%s\n" % (sourcename, name))
+    fp.write("          </DataItem>\n")
+    fp.write("        </DataItem>\n")
+    fp.write("      </Attribute>\n")
+
+if __name__ == "__main__":
+    gen_xdmf()

@@ -1,0 +1,11 @@
+psutil
+numpy
+scipy
+matplotlib
+h5py
+click
+tqdm
+pandas
+sphinx
+pympler
+latex

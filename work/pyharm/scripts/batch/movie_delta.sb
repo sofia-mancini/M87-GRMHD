@@ -1,0 +1,42 @@
+#!/bin/bash -i
+
+# Admin stuff
+#SBATCH -J pyharm_movie
+#SBATCH --account=bbhr-delta-cpu
+#SBATCH -t 12:00:00
+#SBATCH -N 1
+#SBATCH -p cpu
+#SBATCH -o "out-%j.txt"
+
+# Nodes we want
+#SBATCH --tasks-per-node=32
+#SBATCH --cpus-per-task=4
+# ALWAYS reserve full nodes to mitigate memory leaks
+#SBATCH --exclusive
+#SBATCH --mem=0
+
+NUM_NODES=${SLURM_JOB_NUM_NODES:-1}
+
+PROCS_PER_NODE=1
+
+# TODO if conda loaded...
+#conda deactivate
+#module unload anaconda3_cpu
+
+# Run movie as an MPI job on Delta
+# See pyharm-movie docs/help for options, test on a few dumps
+# before committing to big jobs.
+
+# Better to oversubscribe CPU than serialize as there are
+# relatively few numpy ops
+export MKL_NUM_THREADS=8
+export OMP_NUM_THREADS=8
+
+# Start 1 task/cpu by default. -O option allows more tasks,
+# if this proves efficient for simple stuff.
+if [[ "$*" != *"-d "* ]]
+then
+  srun -n $(($NUM_NODES * $PROCS_PER_NODE)) --cpu-bind=no --spread-job pyharm-movie "${@}"
+else
+  pyharm-movie "${@}"
+fi
